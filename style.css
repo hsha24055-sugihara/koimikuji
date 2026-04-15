@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: rgb(243, 192, 202);
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    color: crimson;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color:crimson;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#ffffff;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+}
