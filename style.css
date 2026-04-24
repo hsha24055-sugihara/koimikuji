@@ -5,14 +5,14 @@ body {
 }
 
 h1 {
-    color: crimson;
+    color: rgb(252, 124, 135);
 }
 
 button {
     padding: 10px;
     font-size: 18px;
     background-color: #ffffff;
-    color:crimson;
+    color: #e97a88;
     border: none;
     border-radius: 5px;
     cursor: pointer;
