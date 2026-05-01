@@ -1,5 +1,5 @@
+const fortunes =[
 //おみくじの結果を配列で用意
-const fortunes = [
     "ちょー大吉　（＞＜）　相手から連絡が！！",
     "大吉　(*'▽')　素敵な出会いがあるかもしれないヨ！",
     "中吉　(^_-)-☆　少し勇気を出すとよいことが起きるかも",
@@ -14,7 +14,16 @@ const result = document.getElementById("result");
 button.addEventListener("click",function () {
     //ランダムな数字を作る
     const randomNumber = Math.floor(Math.random() * fortunes.length);
+    const resultTaxt =  fortunes[(randomNumber)];
 
     //結果を表示
-    result.textContent = fortunes[(randomNumber)];
+    result.textContent  = fortunes[(randomNumber)];
+
+    if (resultTaxt.includes("ちょー大吉")) {
+        result.style.color = "red";
+    }else if (resultTaxt.includes("大吉")) {
+        result.style.color = "pink"
+    }else if (resultTaxt.includes("中吉")) {
+        result.style.color = "gray"
+    }
 })
