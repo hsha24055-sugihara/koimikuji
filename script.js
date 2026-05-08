@@ -25,19 +25,18 @@ button.addEventListener("click",function () {
 
     if (resultTaxt.includes("ちょー大吉")) {
         result.style.color = "red";
-        advice.textContent = ほんとにその返信でいいのかもう一回考えてみよー
+        advice.textContent = ほんとにその返信でいいのかもう一回考えてみよー;
     }else if (resultTaxt.includes("大吉")) {
         result.style.color = "pink"
-        advice.textContent = ちょーかわいく身だしなみを整えておこー
+        advice.textContent = ちょーかわいく身だしなみを整えておこー;
     }else if (resultTaxt.includes("中吉")) {
         result.style.color = "gray"
-        advice.textContent = さりげなくアピールしてみよー
+        advice.textContent = さりげなくアピールしてみよー;
     }else if (resultTaxt.includes("小吉")) {
         result.style.color = "blue"
-        advice.textContent =散歩に行ってみると何か起きる気がする
+        advice.textContent =散歩に行ってみると何か起きる気がする;
     }else if (resultTaxt.includes("凶")) {
         result.style.color = "black"
-        advice.textContent = 音楽を聴きながら寝てみると落ち着くヨ
-
-}
+        advice.textContent = 音楽を聴きながら寝てみると落ち着くヨ;
+    }
 });
